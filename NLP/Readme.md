@@ -13,3 +13,9 @@
 3) Removal of unnecessary words (words that appear less frequently,</br> 
    words of shorter length)</br>
 4) Regular expression</br>
+
+* Normalization (To reduce the size of corpors
+
+1) Lemmatization: Lemma (표제어), ex) am,are,is = be, cats,cat = cat
+2) Stemming
+3) Korean stemming
