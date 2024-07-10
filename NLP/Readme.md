@@ -16,6 +16,9 @@
 
 * Normalization (To reduce the size of corpors
 
-1) Lemmatization: Lemma (표제어), ex) am,are,is = be, cats,cat = cat
-2) Stemming
-3) Korean stemming
+1) Lemmatization: Lemma(표제어) 찾는 과정, ex) am,are,is = be, cats,cat = cat (cat어간+s접사)</br>
+                  형태학적 파싱, 형태소(의미를 가진 가장 작은 단위) = Stem(핵심) + Affix(추가의미)</br>
+                  ex) NLTK WordNetLemmatizer</br>
+3) Stemming 어간 추출: Stem (어간), </br>
+                    ex) Lancaster & Porter algorithms</br>
+4) Korean stemming</br>
