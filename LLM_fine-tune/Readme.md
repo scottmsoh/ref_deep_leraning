@@ -3,6 +3,8 @@
 
 When Scaling Meets LLM Fine-Tuning: The Effect of Data, Model and Fine-Tuning Method:</br>
 This paper explores various fine-tuning methods such as Full-Model Tuning (FMT), Prompt Tuning, and Low-Rank Adaptation (LoRA). It examines the impact of scaling different factors like model size and pre-training data size on the performance of LLMs. The study highlights that while small-scale fine-tuning can yield decent results, larger-scale fine-tuning data significantly enhances performance for well-defined downstream applications​ (ar5iv)​.</br>
+https://ar5iv.labs.arxiv.org/html/2402.17193
+
 
 LoftQ: Reimagining LLM Fine-Tuning with Smarter Initialization:</br>
 Presented at ICLR 2024, LoftQ introduces a method combining quantization and adaptive initialization. Quantization reduces the precision of model parameters, lowering memory and computation needs. This approach is based on principles from LoRA and QLoRA and aims to preserve model capabilities while reducing resource usage. LoftQ's tests demonstrate strong performance, often surpassing QLoRA configurations on various tasks​ (Microsoft Cloud)​.</br>
