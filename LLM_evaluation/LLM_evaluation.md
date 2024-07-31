@@ -1,7 +1,7 @@
 
 ## LLM Evaluation
 
-1. SOTA LLM Evaluation Using GPT-4, HyperCLOVA X, and Gemini
+1. SOTA LLM Evaluation Using GPT-4, Llama, and Gemini
 
 This repository contains an evaluation of state-of-the-art large language models (LLMs) such as GPT-4, HyperCLOVA X, and Gemini. The evaluation assesses the appropriateness of the models' responses to given instructions.</br>
 
