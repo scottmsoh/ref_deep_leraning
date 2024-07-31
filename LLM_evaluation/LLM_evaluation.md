@@ -5,7 +5,7 @@
 
 This repository contains an evaluation of state-of-the-art large language models (LLMs) such as GPT-4, HyperCLOVA X, and Gemini. The evaluation assesses the appropriateness of the models' responses to given instructions.</br>
 
-## Evaluation Methodology
+### Evaluation Methodology
 
 1. **Evaluation Using SOTA LLMs**:
    - We utilize models like GPT-4, HyperCLOVA X, and Gemini to evaluate the appropriateness of responses to instructions.
