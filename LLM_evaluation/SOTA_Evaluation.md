@@ -1,5 +1,5 @@
 
-## LLM Evaluation
+## LLM Evaluation 1st methodology
 
 1. SOTA LLM Evaluation Using GPT-4, Llama, and Gemini
 
@@ -35,3 +35,4 @@ The table below summarizes the statistical comparison between Model A and Model 
 - **Median (중앙값)**: The middle value of the scores. Model A has a median of 55, and Model B has a median of 50.
 - **STD (표준편차)**: The standard deviation, indicating how spread out the scores are from the mean. Model A has a standard deviation of approximately 27.21, while Model B has a standard deviation of approximately 11.40.
 - **C.I (신뢰 구간)**: The confidence interval, providing an estimated range that is likely to contain the true mean score. Model A's confidence interval is [30.14, 79.86], and Model B's confidence interval is [42.98, 63.02].
+
