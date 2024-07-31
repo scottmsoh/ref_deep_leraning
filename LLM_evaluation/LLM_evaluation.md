@@ -7,17 +7,17 @@ This repository contains an evaluation of state-of-the-art large language models
 
 ### Evaluation Methodology
 
-1. **Evaluation Using SOTA LLMs**:
+1) **Evaluation Using SOTA LLMs**:
    - We utilize models like GPT-4, HyperCLOVA X, and Gemini to evaluate the appropriateness of responses to instructions.
    - This is one of the simplest evaluation methods and is widely used in various research papers and studies.
 
-2. **Challenges**:
+2) **Challenges**:
    - Although the same instructions and responses are used in each trial, the scores can vary significantly between trials, indicating inconsistency in measurement.
 
-3. **Establishing Confidence Intervals**:
+3) **Establishing Confidence Intervals**:
    - By increasing the number of trials and considering the variability of the scores, we establish confidence intervals to estimate the range within which the true score likely falls.
 
-## Statistical Comparison of Models
+### Statistical Comparison of Models
 
 The table below summarizes the statistical comparison between Model A and Model B based on their evaluation scores.
 
@@ -29,7 +29,7 @@ The table below summarizes the statistical comparison between Model A and Model 
 | STD       | ≈ 27.21                    | ≈ 11.40                    |
 | C.I       | SE(A) = 12.17 \| CI = [30.14, 79.86] | SE(B) = 5.10 \| CI = [42.98, 63.02] |
 
-### Detailed Explanation
+#### Detailed Explanation (Examples)
 
 - **Mean (평균)**: The average score. Model A has a mean of 55, and Model B has a mean of 53.
 - **Median (중앙값)**: The middle value of the scores. Model A has a median of 55, and Model B has a median of 50.
