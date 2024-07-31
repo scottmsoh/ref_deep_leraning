@@ -1,30 +1,32 @@
 
 
-# Multiple-choice Evaluation of LLM Responses
+## LLM Evaluation 1st methodology- Multiple-choice Evaluation of LLM Responses
 
-This repository contains an evaluation of large language model (LLM) responses using multiple-choice questions. The evaluation focuses on comparing the accuracy and F1-score of the models' responses.
+This repository contains an evaluation of large language model (LLM) responses using multiple-choice questions. The evaluation focuses on comparing the accuracy and F1-score of the models' responses.</br>
 
-## 3. Multiple-choice Evaluation
+### 3. Multiple-choice Evaluation
 
 ### Methodology
 
 - **Objective Evaluation**:
-  - The responses of the models are compared using metrics such as accuracy and F1-score.
-  - This method provides an objective measure of the models' performance.
+  - The responses of the models are compared using metrics such as accuracy and F1-score.</br>
+  - This method provides an objective measure of the models' performance.</br>
 
 ### Evaluation Content (Based on Korean Criteria):
 
-- **Comprehensive Korean Benchmarks**: KMMLU, HAERAE-Bench
-- **Common Reasoning**: Hellaswag, Winogrande, PIQA, ARC, CommonsenseQA
-- **World Knowledge and Factuality**: Natural Questions, TriviaQA, CLiCk, Factscore
-- **Mathematics**: GSM8k, MATH
-- **Coding Capabilities**: HumanEval, MBPP
-- **Instruction-Following and Chatting Abilities**: MT-Bench
-- **Harmlessness**: TruthfulQA, BOLD
+- **Comprehensive Korean Benchmarks**: KMMLU, HAERAE-Bench</br>
+- **Common Reasoning**: Hellaswag, Winogrande, PIQA, ARC, CommonsenseQA</br>
+- **World Knowledge and Factuality**: Natural Questions, TriviaQA, CLiCk, Factscore</br>
+- **Mathematics**: GSM8k, MATH</br>
+- **Coding Capabilities**: HumanEval, MBPP</br>
+- **Instruction-Following and Chatting Abilities**: MT-Bench</br>
+- **Harmlessness**: TruthfulQA, BOLD</br>
 
 ### Handling Different Response Formats
 
 - **Few-shot Prompting**:
-  - Provide example questions and answer formats as prompts and compare the models' responses.
-- **Ground Truth (GT) Based Comparison**:
-  - Compare responses against ground truth answers for precise evaluation.
+  - Provide example questions and answer formats as prompts and compare the models' responses.</br>
+- **Ground Truth (GT) Based Comparison**:</br>
+  - Compare responses against ground truth answers for precise evaluation.</br>
+
+
