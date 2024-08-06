@@ -16,3 +16,6 @@
 
 Ref: Here they provided some great examples to understand temperature meaning</br> 
 https://lukesalamone.github.io/posts/what-is-temperature/
+https://platform.openai.com/playground/chat?mode=chat&models=gpt-4o-mini-2024-07-18
+
+
