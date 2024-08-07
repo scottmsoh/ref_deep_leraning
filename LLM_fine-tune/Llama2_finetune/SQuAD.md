@@ -1,5 +1,5 @@
 
-## Fine-tune Llama2 with SQuAD dataset (Stanford Question Answering Dataset)
+## Llama2 Model Fine-tunning with SQuAD dataset (Stanford Question Answering Dataset)
 
-Ref: https://rajpurkar.github.io/SQuAD-explorer/</br>
+Dataset: https://rajpurkar.github.io/SQuAD-explorer/</br>
 
