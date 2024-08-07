@@ -7,10 +7,12 @@ Methods enable efficient adaption of pre-trained language models (PLMs) to vario
 1. LoRA (Low-Rank Adaptation of Large Language Models)</br>
    ref: [arxiv.org/abs/2106.09685](https://arxiv.org/pdf/2106.09685)</br>
 
-2. Prefix Tuning (
-   ref: 
+2. Prefix Tuning</br>
+   ref: https://arxiv.org/pdf/2101.00190</br>
+   huggingface: https://huggingface.co/docs/peft/en/package_reference/prefix_tuning</br>
 
 5. P-Tuning
+6. 
 
-6. Prompt-Tuning
+7. Prompt-Tuning
 
