@@ -11,11 +11,27 @@ Methods enable efficient adaption of pre-trained language models (PLMs) to vario
    ref: https://arxiv.org/pdf/2101.00190</br>
    huggingface: https://huggingface.co/docs/peft/en/package_reference/prefix_tuning</br>
 
-5. P-Tuning</br>
+3. P-Tuning</br>
    ref: https://arxiv.org/pdf/2103.10385</br>
    higgingface: https://huggingface.co/docs/peft/en/package_reference/p_tuning</br>
    
-8. Prompt-Tuning</br>
+4. Prompt-Tuning</br>
    ref: https://arxiv.org/pdf/2104.08691 </br>
    huggingface: https://huggingface.co/docs/peft/en/package_reference/prompt_tuning</br>
 
+5. AdaLoRA</br>
+   ref: </br>
+   huggingface: </br>
+   
+7. (IA)?</br>
+   ref: </br>
+   huggingface: </br>
+   
+8. MultiTask Prompt Tuning</br>
+   ref: </br>
+   huggingface: </br>
+   
+9. LoHa</br>
+   ref: </br>
+   huggingface: </br>
+   
