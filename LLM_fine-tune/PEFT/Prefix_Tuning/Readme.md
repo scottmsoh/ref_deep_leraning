@@ -9,6 +9,7 @@ It will use only 0.1% of entire LLM's parameters.</br>
 &nbsp;
 
 <img width="480" alt="image" src="https://github.com/user-attachments/assets/d8c811db-0ab5-40a4-8d29-592ff2580df7">
+
 &nbsp;
 
 At GPT2, only utilize one prefix but at BERT who structured Encoder & decoder should use a prefix at each, entirely 2 prefixes.</br>
