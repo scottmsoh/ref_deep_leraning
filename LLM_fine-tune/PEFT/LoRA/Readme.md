@@ -56,3 +56,28 @@ Although there was a slight decrease in some performance metrics after applying 
 
 
 
+# Comparison of Power Consumption Before and After Applying LoRA
+
+| Metric                     | Before LoRA          | After LoRA           | Difference        |
+|----------------------------|----------------------|----------------------|-------------------|
+| **Energy consumed for RAM (kWh)** | 0.597710               | 0.687351               | +0.089641         |
+| **RAM Power (W)**          | 188.9085144996643    | 188.9085144996643    | 0                 |
+| **Energy consumed for all GPUs (kWh)** | 1.585529               | 1.874576               | +0.289047         |
+| **Total GPU Power (W)**    | 477.46172772572896   | 476.03178951650114   | -1.42993820922782  |
+| **Energy consumed for all CPUs (kWh)** | 0.134576               | 0.154766               | +0.020190         |
+| **Total CPU Power (W)**    | 42.5                 | 42.5                 | 0                 |
+| **Total electricity used (kWh)** | 2.317815               | 2.716692               | +0.398877         |
+
+## Analysis
+
+- **Energy consumed for RAM**: The RAM power consumption increased slightly after applying LoRA, indicating that additional parameters might have been stored in RAM.
+- **Energy consumed for all GPUs**: GPU power consumption increased after applying LoRA, suggesting that more computations were required.
+- **Energy consumed for all CPUs**: CPU power consumption also increased slightly after applying LoRA, indicating an increase in CPU computations.
+- **Total electricity used**: Total power consumption increased after applying LoRA, indicating that the overall system consumed more power.
+
+## Conclusion
+
+After comparing the power consumption before and after applying LoRA, it is observed that the model with LoRA consumed slightly more power. This increase in power consumption might be due to the additional computations required by LoRA. However, it is important to evaluate whether this increase in power consumption is acceptable in exchange for the potential performance improvements and efficiency gains offered by LoRA.
+
+
+
