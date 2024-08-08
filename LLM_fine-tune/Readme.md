@@ -1,4 +1,18 @@
 
+Fine-tune methodologies
+ref: https://www.labellerr.com/blog/comprehensive-guide-for-fine-tuning-of-llms/
+
+1. Question Answering
+2. Language Generation
+3. NER (Named Entity Recognition)
+4. Sentiment Analysis
+5. Summarization
+6. Parapharase identification
+7. others
+
+![image](https://github.com/user-attachments/assets/828ec842-64e3-4394-ac4d-1bf744b950a4)
+
+
 ## Fine-tune Research
 
 When Scaling Meets LLM Fine-Tuning: The Effect of Data, Model and Fine-Tuning Method:</br>
