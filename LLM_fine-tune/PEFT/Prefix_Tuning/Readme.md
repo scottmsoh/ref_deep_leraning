@@ -22,3 +22,8 @@ At GPT2, only utilize one prefix but at BERT who structured Encoder & decoder sh
 &nbsp;
 Compare the result between only fine-tune, adapter, and prefix(0.1%)</br>
 <img width="1208" alt="image" src="https://github.com/user-attachments/assets/593c4314-e649-4fdc-8ce9-a7feb193356b">
+
+&nbsp;
+Summarization: Best prefix length: 200, Table-to-text: 10 </br>
+
+<img width="746" alt="image" src="https://github.com/user-attachments/assets/e725ae21-35f4-4aeb-a071-f5c9fd4cfe6f">
