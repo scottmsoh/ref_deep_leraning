@@ -1,5 +1,5 @@
 
-## Llama2 Model Fine-tunning with Korquad dataset
+## Llama2 Model Fine-tunning with Korquad dataset (QA case)
 
 -. Dataset: https://korquad.github.io/category/1.0_ENG.html
 
