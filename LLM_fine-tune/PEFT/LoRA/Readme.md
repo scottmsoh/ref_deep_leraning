@@ -1,5 +1,5 @@
 
-## LoRA Fine-tune optimization - RoBERTa Token Classification
+## LoRA Fine-tune optimization - RoBERTa Token Classification (NER case)
 
 #### Hardware Spec CPU/GPU
 CPU       : Intel(R) Xeon(R) CPU E5-2698 v4 @ 2.20GHz 20 core(40thread) * 2 ea</br>
