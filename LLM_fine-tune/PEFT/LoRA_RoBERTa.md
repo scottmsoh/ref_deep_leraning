@@ -33,6 +33,26 @@ After using LoRA, trainable% is 56.19% as the image below. (trainable params: 70
 
 
 Explain: 
+# Comparison of Model Performance Before and After Applying LoRA
+
+| Metric             | Before LoRA    | After LoRA     | Difference    |
+|--------------------|----------------|----------------|---------------|
+| **Validation Loss**| 0.158031       | 0.151547       | -0.006484     |
+| **Precision**      | 0.791423       | 0.784485       | -0.006938     |
+| **Recall**         | 0.827481       | 0.827120       | -0.000361     |
+| **F1 Score**       | 0.809050       | 0.805224       | -0.003826     |
+| **Accuracy**       | 0.950083       | 0.949415       | -0.000668     |
+
+## Analysis
+
+- **Validation Loss**: The validation loss decreased after applying LoRA, indicating better generalization performance on the validation data.
+- **Precision**: The precision slightly decreased after applying LoRA, but the difference is minimal, and it still maintains a high precision.
+- **Recall**: The recall remains almost identical before and after applying LoRA.
+- **F1 Score**: The F1 score slightly decreased after applying LoRA, but it still remains high.
+- **Accuracy**: The accuracy slightly decreased after applying LoRA, but the difference is minimal, and it still maintains a very high accuracy.
+
+## Conclusion
+Although there was a slight decrease in some performance metrics after applying LoRA, the validation loss improved, indicating better generalization performance. This suggests that LoRA can enhance computational efficiency while maintaining high performance.
 
 
 
