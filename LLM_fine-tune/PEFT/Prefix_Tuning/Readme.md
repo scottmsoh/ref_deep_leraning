@@ -1,6 +1,8 @@
 
 
 ## Pre-fix Tuning
+- Paper: https://arxiv.org/pdf/2101.00190</br>
+
 
 During the fine-tune,</br> 
 The model should update the entire parameters. It is getting inefficient because LLMs are becoming huge like 36B parameters.</br>
