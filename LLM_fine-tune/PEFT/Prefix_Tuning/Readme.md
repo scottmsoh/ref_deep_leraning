@@ -20,5 +20,5 @@ At GPT2, only utilize one prefix but at BERT who structured Encoder & decoder sh
 <img width="1209" alt="image" src="https://github.com/user-attachments/assets/770795cf-523c-4d7b-b1fe-97c9cc885bca">
 
 &nbsp;
-
+Compare the result between only fine-tune, adapter, and prefix(0.1%)</br>
 <img width="1208" alt="image" src="https://github.com/user-attachments/assets/593c4314-e649-4fdc-8ce9-a7feb193356b">
