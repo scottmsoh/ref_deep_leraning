@@ -1,14 +1,12 @@
 
-P-tuning
+P-tuning (GPT Understand, Too)
 &nbsp;
 
 Devised a Prompt Encoder (LSTM) to enable searching for more appropriate prompts in continuous space.</br>
 Shows improvement in a major problem where there was a large difference in performance depending on how the sentence was structured.</br>
 When P-Tuning was applied to NLU, which was the weak point of the one-way model GPT, it showed performance equivalent to the bi-directional model BERT.</br>
 
-By using Prompt Encoder(LSTM), it is possible to search adequate prompts within continuous spaces
-This methodology enhances the one big problem that GPT shows the big gaps when we ordered words in the prompt differently.
-GPT, one-directional model has weak points for NLU but with P-tuning, the results show comparable values as BERT, bi-directional model
+&nbsp;
 
 <img width="1323" alt="image" src="https://github.com/user-attachments/assets/a14a5339-3882-40a2-9b59-b0c359db3f48">
 
