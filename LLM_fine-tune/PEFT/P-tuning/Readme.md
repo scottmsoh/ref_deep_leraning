@@ -6,5 +6,5 @@ P-tuning
 
 &nbsp;
 
-Prompt Huge gap
+GPT shows huge gaps from minimal differences within prompt context
 <img width="1183" alt="image" src="https://github.com/user-attachments/assets/4d356e03-2fd5-41d8-ad81-0080908fd856">
