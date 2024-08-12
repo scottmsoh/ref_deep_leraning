@@ -23,9 +23,9 @@ Methods enable efficient adaption of pre-trained language models (PLMs) to vario
    ref: </br>
    huggingface: </br>
    
-7. (IA)?</br>
-   ref: </br>
-   huggingface: </br>
+7. (IA3)</br>
+   ref: https://arxiv.org/pdf/2205.05638</br>
+   huggingface: https://huggingface.co/docs/peft/en/package_reference/ia3</br>
    
 8. MultiTask Prompt Tuning</br>
    ref: </br>
