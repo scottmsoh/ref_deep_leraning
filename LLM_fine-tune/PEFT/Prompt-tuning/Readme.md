@@ -3,6 +3,10 @@
 The Power of Scale for Parameter-Efficient Prompt Tuning</br>
 Similar to pre-fix tuning but prompt-tuning is more eifficient because it only will assign prompt vector in front of x(input), not whole transfomers.</br>
 
+
+<img width="836" alt="image" src="https://github.com/user-attachments/assets/3ff7bca5-1177-4277-a82c-e1176225f23e">
+
+
 Prompt design(Manual prompting), Prompt-tuning=</br>
 <img width="479" alt="image" src="https://github.com/user-attachments/assets/3053d4b0-af50-419e-8393-1a6da3c9564a">
 
