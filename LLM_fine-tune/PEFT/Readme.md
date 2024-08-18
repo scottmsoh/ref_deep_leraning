@@ -20,8 +20,8 @@ Methods enable efficient adaption of pre-trained language models (PLMs) to vario
    huggingface: https://huggingface.co/docs/peft/en/package_reference/prompt_tuning</br>
 
 5. QLoRA</br>
-   ref: </br>
-   huggingface: </br>
+   ref: https://arxiv.org/pdf/2305.14314</br>
+   huggingface: https://huggingface.co/docs/bitsandbytes/main/en/fsdp_qlora</br>
    
 6. AdaLoRA</br>
    ref: </br>
