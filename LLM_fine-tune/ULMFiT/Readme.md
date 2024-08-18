@@ -9,13 +9,13 @@ https://arxiv.org/pdf/1801.06146﻿</br>
 1) Gradual unfreezing</br>
 2) Discriminative fine-tuning</br>
 
-When creating the training dataset for fine-tuning,</br>
-you can use 40% pre-training data and 60% new domain data (ratio adjustment is important).</br>
-Cons:</br>
-Data preparation can become complex.</br>
-Training time may increase.</br>
-The pre-training data format may differ from the fine-tuning data (e.g., QA).</br> 
-In such cases, the QA dataset may need to be reformatted (e.g., "Question: {question} Answer: {answer}").</br>
+- When creating the training dataset for fine-tuning,</br>
+- you can use 40% pre-training data and 60% new domain data (ratio adjustment is important).</br>
+- Cons:</br>
+  a) Data preparation can become complex.</br>
+  b) Training time may increase.</br>
+- The pre-training data format may differ from the fine-tuning data (e.g., QA).</br> 
+  In such cases, the QA dataset may need to be reformatted (e.g., "Question: {question} Answer: {answer}").</br>
 
 ### QA data conversion (example)
 ```python
