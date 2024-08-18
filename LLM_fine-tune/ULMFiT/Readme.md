@@ -17,7 +17,7 @@ Training time may increase.</br>
 The pre-training data format may differ from the fine-tuning data (e.g., QA).</br> 
 In such cases, the QA dataset may need to be reformatted (e.g., "Question: {question} Answer: {answer}").</br>
 
-### QA data conversion
+### QA data conversion (example)
 ```python
 qa_texts = [] 
 for item in qa_data: 
@@ -27,5 +27,6 @@ for item in qa_data:
         answer = qa_pair['answers'][0]['text']  # use first answer
         qa_text = f"context: {context}\nquestions: {question}\nanswers: {answer}" 
         qa_texts.append(qa_text)
+```
 
 3) Slanted triangular learning rates</br>
