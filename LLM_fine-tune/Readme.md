@@ -2,6 +2,7 @@
 ## Fine-tune methodologies
 ref: https://www.labellerr.com/blog/comprehensive-guide-for-fine-tuning-of-llms/<br>
 
+* Tasks
 1. Question Answering
 2. Language Generation
 3. NER (Named Entity Recognition)
