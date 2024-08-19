@@ -3,7 +3,7 @@
 
 ## 18 GPT Prompting Strategies </br>
 
-ref: 
+ref: https://platform.openai.com/docs/guides/prompt-engineering/six-strategies-for-getting-better-results</br>
 
 1. Include details in your query to get more relevant answers</br>
 2. Ask the model to adopt a persona</br>
