@@ -14,6 +14,8 @@ This work proposes a method to solve sequence-to-sequence problems based on LSTM
 - Uses LSTM to encode the input sequence and convert it into a fixed-dimensional vector.
 - Generates the output sequence through another LSTM (decoder).
 
+![](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*0hNJAH3xgW_6smcsz0vaWw.png)
+
 ## Model
 
 LSTM generates the conditional probability $p(y_1, ..., y_{T'}|x_1, ..., x_T)$ when $(x_1, ..., x_T)$ is input. <br>
