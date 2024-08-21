@@ -2,6 +2,9 @@
 
 ### GRU (Gated Recurrent Unit)
 
+
+paper: https://arxiv.org/pdf/1412.3555</br>
+
 A variant of RNN that simplifies the three gates used in LSTM. <br>
 It updates information using the update gate and reset gate. <br>
 In GRU, the cell state and hidden state are combined into the hidden state. <br>
