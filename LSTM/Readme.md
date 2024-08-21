@@ -2,6 +2,8 @@
 
 ## LSTM (Long Short Term Memory)
 
+https://deeplearning.cs.cmu.edu/F23/document/readings/LSTM.pdf</br>
+
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*tEN1Ziu4VvRAaH9zagN3EQ.png" width="600" height="300"/>
 
 <br>
