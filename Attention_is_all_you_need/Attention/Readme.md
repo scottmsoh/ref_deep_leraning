@@ -93,3 +93,14 @@ $\hat{y_t}$ = Softmax($\textbf{W}_y\tilde{s_t} + b_y$)
 <br>
 
 
+<span style="font-size:18pt;"> Encoder </span>
+
+Bidirectional RNN 구조를 사용하여 각 단어의 annotation이 이전의 단어 뿐 아니라 이후의 단어도 요약할 수 있도록 구성
+- forwad RNN은 input sequence를 순방향($x_1$ to $x_{T_x}$)으로 읽고 forward hidden state 계산
+- backward RNN은 input sequence를 역방향($x_{T_x}$ to $x_1$)으로 읽고, backward hidden state 계산
+- 각 단어 $x_j$의 annotation을 forward hidden state $\overrightarrow{h_j}$와 backward hidden state $\overleftarrow{h_j}$의 결합을 통해 얻음
+- annotation $h_j$가 선행과 후행단어 모두의 요약을 포함할 수 있음
+- RNN의 최근 input을 더 잘 표현하려는 경향으로, annotation $h_j$는 $x_j$ 근방의 단어에 집중
+- 이러한 annotation sequence는 decoder에 의해 사용되며, 이후에 alignment model이 context vector를 계산 (Eqs. (4)-(5))
+
+
