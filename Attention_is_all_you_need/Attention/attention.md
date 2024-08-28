@@ -13,6 +13,7 @@
 ## Introduction
 The original Seq2seq concept faced limitations in representing entire data using a single context vector at the encoding phase. This issue became particularly significant when dealing with long sequence lengths (corpus).
 
+At here, we are only going to review Loung Attention mechanism, Bahnadau Attention will be reviewd.</br>
 **Reference Paper**: [Effective Approaches to Attention-based Neural Machine Translation](https://courses.grainger.illinois.edu/cs546/sp2018/Slides/Mar15_Luong.pdf)
 
 </br>
