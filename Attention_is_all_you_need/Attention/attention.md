@@ -102,4 +102,10 @@ class LuongAttention(nn.Module):
         attention_distribution = F.softmax(attention_score, dim=-1)
         context_vector = (attention_distribution*value).sum(dim=1)
         concatenate = torch.cat([query.squeeze(), context_vector], axis=-1)
-        tilde_s_t = F.tanh(s
+        tilde_s_t = F.tanh(self.w_c(concatenate))
+        y_hat = F.softmax(self.w_y(tilde_s_t), dim=-1)
+
+        return y_hat
+
+x = torch.rand(32, 64, 64)
+LoungAttention(64, 32078)(x, x, x).argmax(axis=-1)
