@@ -15,8 +15,12 @@ The original Seq2seq concept faced limitations in representing entire data using
 
 **Reference Paper**: [Effective Approaches to Attention-based Neural Machine Translation](https://courses.grainger.illinois.edu/cs546/sp2018/Slides/Mar15_Luong.pdf)
 
+</br>
+
 ## Contribution
 The key contribution is moving away from fixed-length vector encoding methods.
+
+</br>
 
 ## Model
 - Utilizes a Bidirectional RNN structure
@@ -25,6 +29,8 @@ The key contribution is moving away from fixed-length vector encoding methods.
 The probability is given by:
 
 p(**y**) = Π<sub>t=1</sub><sup>T</sup>p(y<sub>t</sub>|{y<sub>1</sub>, ..., y<sub>t-1</sub>}, c)
+
+</br>
 
 ## Attention
 
@@ -44,12 +50,16 @@ Compute attention scores through dot product between decoder's hidden state at t
 - Attention score: $ score(s_t, h_i) = s_t^Th_i $
 - Attention score collection: $ e^t = [s^T_th_1, ... , s_t^Th_N] $
 
+</br>
+
 #### Step 2: Attention Distribution
 ![Step 2](https://wikidocs.net/images/page/22893/dotproductattention3_final.PNG)
 
 Apply softmax to $e^t$ to get probability distribution (attention distribution):
 
 $\alpha^t = softmax(e^t)$
+
+</br>
 
 #### Step 3: Context Vector Calculation
 ![Step 3](https://wikidocs.net/images/page/22893/dotproductattention4_final.PNG)
@@ -60,10 +70,14 @@ $ a_t = \Sigma^N_{i=1} \alpha_i^t h_i $
 
 $a_t$ is the context vector.
 
+</br>
+
 #### Step 4: Concatenation
 ![Step 4](https://wikidocs.net/images/page/22893/dotproductattention5_final_final.PNG)
 
 Concatenate decoder's hidden state $s_t$ with attention value $a_t$.
+
+</br>
 
 #### Step 5: New Vector Calculation
 ![Step 5](https://wikidocs.net/images/page/22893/st.PNG)
@@ -72,10 +86,14 @@ Compute new vector $\tilde{s_t}$:
 
 $ \tilde{s_t} = tanh(\textbf{W}_c[a_t;s_t] + b_c)$
 
+</br>
+
 #### Step 6: Final Output
 Compute final output:
 
 $\hat{y_t} = Softmax(\textbf{W}_y\tilde{s_t} + b_y)$
+
+</br>
 
 ## Encoder
 Uses Bidirectional RNN structure:
