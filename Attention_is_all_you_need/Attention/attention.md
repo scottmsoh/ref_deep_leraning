@@ -35,7 +35,7 @@ p(**y**) = Π<sub>t=1</sub><sup>T</sup>p(y<sub>t</sub>|{y<sub>1</sub>, ..., y<su
 
 ## Attention
 
-### Luong Attention
+## Luong Attention
 
 ![Overall structure of attention](https://wikidocs.net/images/page/22893/dotproductattention1_final.PNG)
 
