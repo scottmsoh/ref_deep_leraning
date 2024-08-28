@@ -24,7 +24,8 @@ The key contribution is moving away from fixed-length vector encoding methods.
 </br>
 
 ## Model
-- Utilizes a Bidirectional RNN structure
+- Loung: Utilizes a bidirectional or directional LSTM structure as an encoder, LSTM decoder.
+- Bahdanau: Bidirectional RNN as an encoder, GRU as a decoder. 
 - Calculates probability for each context vector Ci
 
 The probability is given by:
