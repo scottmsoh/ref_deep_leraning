@@ -104,3 +104,39 @@ Bidirectional RNN 구조를 사용하여 각 단어의 annotation이 이전의 �
 - 이러한 annotation sequence는 decoder에 의해 사용되며, 이후에 alignment model이 context vector를 계산 (Eqs. (4)-(5))
 
 
+```
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+```
+
+
+```
+class LoungAttention(nn.Module):
+    def __init__(self, hidden_dim, vocab_size):
+        super().__init__()
+        self.hidden_dim = hidden_dim
+        self.vocab_size = vocab_size
+
+        self.w_c = nn.Linear(2*hidden_dim, hidden_dim)
+        self.w_y = nn.Linear(hidden_dim, vocab_size)
+    
+    def forward(self, query, key, value):
+        query = query.unsqueeze(axis=1)
+        attenion_score = (query @ key)
+        attention_distribution = F.softmax(attenion_score, dim=-1)
+        context_vector = (attention_distribution*value).sum(dim=1)
+        concatenate = torch.cat([query.squeeze(), context_vector], axis=-1)
+        tilde_s_t = F.tanh(self.w_c(concatenate))
+        y_hat = F.softmax(self.w_y(tilde_s_t), dim=-1)
+
+        return y_hat
+
+x = torch.rand(32, 64, 64)
+LoungAttention(64, 32078)(x, x, x).argmax(axis=-1)
+
+```
+
+
+
+
