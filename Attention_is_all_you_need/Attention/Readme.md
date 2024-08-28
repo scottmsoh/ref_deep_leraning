@@ -92,15 +92,4 @@ $\hat{y_t}$ = Softmax($\textbf{W}_y\tilde{s_t} + b_y$)
 <br>
 <br>
 
-<span style="font-size:16pt;"> Bahdanau Attention </span>
-
-![](https://wikidocs.net/images/page/73161/%EB%B0%94%EB%8B%A4%EB%82%98%EC%9A%B0%EC%96%B4%ED%85%90%EC%85%981.PNG)
-
-New Decoder: <br>
-RNN에서 조건부 확률이 아래와 같음
-$$ p(y_i|\{y_1, ..., y_{i-1}\}, \textbf{x}) = g(y_{i-1}, s_i, c_i) \tag{3} $$
-where $s_i = f(s_{i-1}, y_{i-1}, c_i)$
-
-<br>
-
 
