@@ -15,9 +15,7 @@ Paper: https://courses.grainger.illinois.edu/cs546/sp2018/Slides/Mar15_Luong.pdf
 - Calculate each context vector Ci's probability
 
 ```
-Original decoder: C(context vector is fixed)
-$$ p(\textbf{y}) = \Pi_{t=1}^Tp(y_t|\{y_1, ..., y_{t-1}\}, c) \tag{1} $$
-where $ \textbf{y} = (y_1, ..., y_{T_y}) $ 
+p(**y**) = Π<sub>t=1</sub><sup>T</sup>p(y<sub>t</sub>|{y<sub>1</sub>, ..., y<sub>t-1</sub>}, c)
 ```
 
 <span style="font-size:18pt;"> Attention </span>
